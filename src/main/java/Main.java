@@ -19,7 +19,17 @@ public class Main {
         return orderInput;
     }
 
+/*    private static OrderOutput convertToJSON(OrderInput orderInput) {
+        String orderReference = orderInput.getId();
+        String nawGegevens = "" + orderInput.getNaam() + "\n" + orderInput.getAdres() +
+                "\n" + orderInput.getPostcode() + " " + orderInput.getPlaats() + "\n" +
+                orderInput.getLand();
+        String productId = orderInput.getProductId();
+        return new OrderOutput(orderReference, nawGegevens, productId);
+    } */
+
     public static void main(String[] args) {
         OrderInput orderInput = orderCreator();
+        //OrderOutput orderOutput = convertToJSON(orderInput);
     }
 }
