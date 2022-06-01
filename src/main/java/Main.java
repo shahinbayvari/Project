@@ -29,7 +29,7 @@ public class Main {
         return new OrderOutput(orderReference, nawGegevens, productId);
     }
 
-    private static void exportToJSOnFile(OrderOutput orderOutput) {
+    private static void exportToJSONFile(OrderOutput orderOutput) {
         String path = "/home/kali/IdeaProjects/Project/src/main/resources/order.json";
         try {
             FileWriter fileWriter = new FileWriter("" + path);
@@ -43,6 +43,6 @@ public class Main {
     public static void main(String[] args) {
         OrderInput orderInput = orderCreator();
         OrderOutput orderOutput = convertToJSON(orderInput);
-        exportToJSOnFile(orderOutput);
+        exportToJSONFile(orderOutput);
     }
 }

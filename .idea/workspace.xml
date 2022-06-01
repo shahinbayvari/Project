@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Create converToJSON function">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Make createConversion() work #w00t!!!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654107545139</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Make createConversion() work #w00t!!!">
+      <created>1654109275016</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1654109275016</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +283,7 @@
     <MESSAGE value="Create OrderOutput constructor" />
     <MESSAGE value="Reverse the accidentally modified orderInput tag to order in XML file" />
     <MESSAGE value="Create converToJSON function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create converToJSON function" />
+    <MESSAGE value="Make createConversion() work #w00t!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make createConversion() work #w00t!!!" />
   </component>
 </project>
