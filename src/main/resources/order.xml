@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <order id="12345">
-    <NAW>
-        <name>Jantje Jantjessen</name>
-        <adres>Jantje Janjessenstraat 5A</adres>
-        <postcode>9183DE</postcode>
-        <plaats>Jantjesstad</plaats>
-        <provincie>Jantje</provincie>
-        <land>Nederland</land>
-    </NAW>
-    <product>
-        <type>Boek</type>
-        <titel>How To Fake Your Way Into Getting A Job In The Tech Sector</titel>
-        <auteur>Willem Willemsen</auteur>
-        <ISBN>978-1-23-456789-0</ISBN>
-        <genre>Self-help</genre>
-        <omschrijving>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget justo et diam blandit viverra.
-            Nunc pharetra lectus eu velit venenatis lobortis. In vitae lectus viverra, placerat nisi vel, fringilla
-            eros. Nullam sed ligula hendrerit, elementum est a, tempor velit. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Vivamus ac venenatis turpis. Pellentesque non elit vel purus maximus pharetra eu et
-            sem. Integer lacus lectus, lobortis et enim eu, feugiat blandit odio. Vestibulum at dignissim metus.
-            Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-            himenaeos. Proin vitae mi accumsan, iaculis nunc et, pellentesque tellus. Fusce non vestibulum nibh.
-            Phasellus congue mauris id finibus mollis. Fusce congue pulvinar est, sit amet sollicitudin mauris
-            fringilla sit amet.</omschrijving>
-    </product>
+    <name>Jantje Jantjessen</name>
+    <adres>Jantje Janjessenstraat 5A</adres>
+    <postcode>9183DE</postcode>
+    <plaats>Jantjesstad</plaats>
+    <provincie>Jantje</provincie>
+    <land>Nederland</land>
+    <productId>83748</productId>
 </order>
