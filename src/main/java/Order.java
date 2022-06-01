@@ -21,4 +21,32 @@ public class Order {
     private String provincie;
     private String land;
     private String productId;
+
+    public String id() {
+        return id;
+    }
+
+    public String getNaam() {
+        return naam;
+    }
+
+    public String getPostcode() {
+        return postcode;
+    }
+
+    public String getPlaats() {
+        return plaats;
+    }
+
+    public String getProvincie() {
+        return provincie;
+    }
+
+    public String getLand() {
+        return land;
+    }
+
+    public String getProductId() {
+        return productId;
+    }
 }
