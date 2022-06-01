@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<order id="12345">
+<order>
+    <id>12345</id>
     <name>Jantje Jantjessen</name>
     <adres>Jantje Janjessenstraat 5A</adres>
     <postcode>9183DE</postcode>
