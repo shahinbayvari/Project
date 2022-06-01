@@ -13,7 +13,7 @@ import javax.xml.bind.annotation.XmlType;
         "land",
         "productId"
 })
-public class Order {
+public class OrderInput {
     @XmlElement
     private String id;
     @XmlElement

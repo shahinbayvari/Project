@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<order>
+<orderInput>
     <id>12345</id>
     <naam>Jantje Jantjessen</naam>
     <adres>Jantje Janjessenstraat 5A</adres>
@@ -8,4 +8,4 @@
     <provincie>Jantje</provincie>
     <land>Nederland</land>
     <productId>83748</productId>
-</order>
+</orderInput>

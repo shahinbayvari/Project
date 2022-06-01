@@ -1,24 +1,25 @@
+import com.google.gson.Gson;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
 
 public class Main {
-    private static Order orderCreator() {
-        Order order = null;
+    private static OrderInput orderCreator() {
+        OrderInput orderInput = null;
         try {
-            JAXBContext context = JAXBContext.newInstance(Order.class);
+            JAXBContext context = JAXBContext.newInstance(OrderInput.class);
             Unmarshaller unmarshaller = context.createUnmarshaller();
-            order = (Order) unmarshaller.unmarshal(
+            orderInput = (OrderInput) unmarshaller.unmarshal(
                     new File("/home/kali/IdeaProjects/Project/src/main/resources/order.xml"));
 
         } catch (JAXBException e) {
             e.printStackTrace();
         }
-        return order;
+        return orderInput;
     }
 
     public static void main(String[] args) {
-        Order order = orderCreator();
+        OrderInput orderInput = orderCreator();
     }
 }

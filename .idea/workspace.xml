@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Saving just to make sure everything is up to date #completelyunnecessary">
+    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Add GSON dependency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654086394306</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Delete unnecessary dependencies and update jaxb dependency to latest">
+      <created>1654104082239</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654104082239</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add GSON dependency">
+      <created>1654104121516</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654104121516</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +229,8 @@
     <MESSAGE value="Change XML tag from name to naam" />
     <MESSAGE value="Move JAXB code into orderCreator()" />
     <MESSAGE value="Saving just to make sure everything is up to date #completelyunnecessary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Saving just to make sure everything is up to date #completelyunnecessary" />
+    <MESSAGE value="Delete unnecessary dependencies and update jaxb dependency to latest" />
+    <MESSAGE value="Add GSON dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add GSON dependency" />
   </component>
 </project>
