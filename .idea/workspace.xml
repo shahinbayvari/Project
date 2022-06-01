@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Add JAXB code to Main.java">
+    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Change XML tag from name to naam">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +141,35 @@
       <option name="project" value="LOCAL" />
       <updated>1654085172699</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add XMLElement to global variables Order.java">
+      <created>1654085296827</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654085296827</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Change id() to getId();">
+      <created>1654085379000</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654085379000</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add getAdres() to Order.java">
+      <created>1654085488696</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654085488696</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Change XML tag from name to naam">
+      <created>1654085552698</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654085552698</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +194,10 @@
     <MESSAGE value="Create Main.java" />
     <MESSAGE value="Create getters Order.java" />
     <MESSAGE value="Add JAXB code to Main.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JAXB code to Main.java" />
+    <MESSAGE value="Add XMLElement to global variables Order.java" />
+    <MESSAGE value="Change id() to getId();" />
+    <MESSAGE value="Add getAdres() to Order.java" />
+    <MESSAGE value="Change XML tag from name to naam" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change XML tag from name to naam" />
   </component>
 </project>
