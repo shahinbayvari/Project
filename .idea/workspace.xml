@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Add JAXB dependency">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/order.xml" afterDir="false" />
+    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Add global variables to Order.java">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654083590596</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Further simplifying XML">
+      <created>1654083760183</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654083760183</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add global variables to Order.java">
+      <created>1654084078534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654084078534</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +118,8 @@
     <MESSAGE value="Simplify XML file" />
     <MESSAGE value="Create Order class" />
     <MESSAGE value="Add JAXB dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JAXB dependency" />
+    <MESSAGE value="Further simplifying XML" />
+    <MESSAGE value="Add global variables to Order.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add global variables to Order.java" />
   </component>
 </project>
