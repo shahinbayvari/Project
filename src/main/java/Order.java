@@ -1,3 +1,4 @@
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
@@ -13,13 +14,21 @@ import javax.xml.bind.annotation.XmlType;
         "productId"
 })
 public class Order {
+    @XmlElement
     private String id;
+    @XmlElement
     private String naam;
+    @XmlElement
     private String adres;
+    @XmlElement
     private String postcode;
+    @XmlElement
     private String plaats;
+    @XmlElement
     private String provincie;
+    @XmlElement
     private String land;
+    @XmlElement
     private String productId;
 
     public String id() {
