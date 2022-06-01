@@ -31,7 +31,7 @@ public class Order {
     @XmlElement
     private String productId;
 
-    public String id() {
+    public String getId() {
         return id;
     }
 
