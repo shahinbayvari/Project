@@ -3,6 +3,8 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Main {
     private static OrderInput orderCreator() {
@@ -12,7 +14,6 @@ public class Main {
             Unmarshaller unmarshaller = context.createUnmarshaller();
             orderInput = (OrderInput) unmarshaller.unmarshal(
                     new File("/home/kali/IdeaProjects/Project/src/main/resources/order.xml"));
-
         } catch (JAXBException e) {
             e.printStackTrace();
         }
@@ -28,8 +29,20 @@ public class Main {
         return new OrderOutput(orderReference, nawGegevens, productId);
     }
 
+    private static void exportToJSOnFile(OrderOutput orderOutput) {
+        String path = "/home/kali/IdeaProjects/Project/src/main/resources/order.json";
+        try {
+            FileWriter fileWriter = new FileWriter("" + path);
+            fileWriter.write(new Gson().toJson(orderOutput));
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void main(String[] args) {
         OrderInput orderInput = orderCreator();
         OrderOutput orderOutput = convertToJSON(orderInput);
+        exportToJSOnFile(orderOutput);
     }
 }
