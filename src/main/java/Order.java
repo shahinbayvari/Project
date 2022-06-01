@@ -39,6 +39,10 @@ public class Order {
         return naam;
     }
 
+    public String getAdres() {
+        return adres;
+    }
+
     public String getPostcode() {
         return postcode;
     }
