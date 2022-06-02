@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Create class TestRunner.java">
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Add global variables orderInput and orderOutput">
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654169798567</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Make all methods in TestOrder.java public">
+      <created>1654170238054</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1654170238054</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Add global variables orderInput and orderOutput">
+      <created>1654170387494</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1654170387494</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,8 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Change XML tag from name to naam" />
-    <MESSAGE value="Move JAXB code into orderCreator()" />
     <MESSAGE value="Saving just to make sure everything is up to date #completelyunnecessary" />
     <MESSAGE value="Delete unnecessary dependencies and update jaxb dependency to latest" />
     <MESSAGE value="Add GSON dependency" />
@@ -426,6 +438,8 @@
     <MESSAGE value="Add testOrderId, testNawGegevens and testProductId" />
     <MESSAGE value="Fix spelling in order.xml" />
     <MESSAGE value="Create class TestRunner.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create class TestRunner.java" />
+    <MESSAGE value="Make all methods in TestOrder.java public" />
+    <MESSAGE value="Add global variables orderInput and orderOutput" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add global variables orderInput and orderOutput" />
   </component>
 </project>
