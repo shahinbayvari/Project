@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Make orderCreator() public">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Change convertToJSON to public">
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Project" />
@@ -68,8 +67,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +291,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654167461830</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Add Istack Common Utility Code Runtime dependency because SUDDENLY nothing works">
+      <created>1654167863456</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1654167863456</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Add Test class">
+      <created>1654167909388</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1654167909388</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Change convertToJSON to public">
+      <created>1654168318778</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1654168318778</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,8 +327,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add JAXB dependency" />
-    <MESSAGE value="Further simplifying XML" />
     <MESSAGE value="Add global variables to Order.java" />
     <MESSAGE value="Create Main.java" />
     <MESSAGE value="Create getters Order.java" />
@@ -330,8 +348,10 @@
     <MESSAGE value="Make createConversion() work #w00t!!!" />
     <MESSAGE value="Fix spelling" />
     <MESSAGE value="Add JUnit dependency" />
-    <MESSAGE value="Add Test class" />
     <MESSAGE value="Make orderCreator() public" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make orderCreator() public" />
+    <MESSAGE value="Add Istack Common Utility Code Runtime dependency because SUDDENLY nothing works" />
+    <MESSAGE value="Add Test class" />
+    <MESSAGE value="Change convertToJSON to public" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change convertToJSON to public" />
   </component>
 </project>
