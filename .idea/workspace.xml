@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Add JUnit dependency">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Make orderCreator() public">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +51,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,6 +69,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654167010939</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Add Test class">
+      <created>1654167039540</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1654167039540</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Make orderCreator() public">
+      <created>1654167461830</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1654167461830</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,8 +307,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Simplify XML file" />
-    <MESSAGE value="Create Order class" />
     <MESSAGE value="Add JAXB dependency" />
     <MESSAGE value="Further simplifying XML" />
     <MESSAGE value="Add global variables to Order.java" />
@@ -308,6 +330,8 @@
     <MESSAGE value="Make createConversion() work #w00t!!!" />
     <MESSAGE value="Fix spelling" />
     <MESSAGE value="Add JUnit dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JUnit dependency" />
+    <MESSAGE value="Add Test class" />
+    <MESSAGE value="Make orderCreator() public" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make orderCreator() public" />
   </component>
 </project>

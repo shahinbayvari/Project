@@ -47,5 +47,13 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.sun.istack/istack-commons-runtime -->
+        <dependency>
+            <groupId>com.sun.istack</groupId>
+            <artifactId>istack-commons-runtime</artifactId>
+            <version>4.1.1</version>
+        </dependency>
+
     </dependencies>
 </project>

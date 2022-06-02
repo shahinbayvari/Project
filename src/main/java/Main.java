@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
-    public static OrderInput orderCreator() {
+    private static OrderInput orderCreator() {
         OrderInput orderInput = null;
         try {
             JAXBContext context = JAXBContext.newInstance(OrderInput.class);
