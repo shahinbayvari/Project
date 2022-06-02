@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
-    private static OrderInput orderCreator() {
+    public static OrderInput orderCreator() {
         OrderInput orderInput = null;
         try {
             JAXBContext context = JAXBContext.newInstance(OrderInput.class);
@@ -20,7 +20,7 @@ public class Main {
         return orderInput;
     }
 
-   private static OrderOutput convertToJSON(OrderInput orderInput) {
+   public static OrderOutput convertToJSON(OrderInput orderInput) {
         String orderReference = orderInput.getId();
         String nawGegevens = "" + orderInput.getNaam() + "\n" + orderInput.getAdres() +
                 "\n" + orderInput.getPostcode() + " " + orderInput.getPlaats() + "\n" +
