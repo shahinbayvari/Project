@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Create orderInput and orderOutput in Test">
+    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Change Test.java to TestOrder.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.TestOrder">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Project" />
@@ -65,8 +65,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestOrder" />
+      <module name="Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestOrder" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
       </list>
@@ -326,7 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654168490482</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add TestOrderId()">
+      <created>1654168976858</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1654168976859</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Change Test.java to TestOrder.java">
+      <created>1654169021844</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1654169021844</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,8 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create getters Order.java" />
-    <MESSAGE value="Add JAXB code to Main.java" />
     <MESSAGE value="Add XMLElement to global variables Order.java" />
     <MESSAGE value="Change id() to getId();" />
     <MESSAGE value="Add getAdres() to Order.java" />
@@ -366,6 +386,8 @@
     <MESSAGE value="Change convertToJSON to public" />
     <MESSAGE value="Change global variables to protected" />
     <MESSAGE value="Create orderInput and orderOutput in Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create orderInput and orderOutput in Test" />
+    <MESSAGE value="Add TestOrderId()" />
+    <MESSAGE value="Change Test.java to TestOrder.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Test.java to TestOrder.java" />
   </component>
 </project>
