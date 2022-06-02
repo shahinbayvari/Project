@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Change convertToJSON to public">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="9765bd22-2936-4ba4-8c98-c03a24fdaee1" name="Changes" comment="Create orderInput and orderOutput in Test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -312,7 +312,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654168318778</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Change global variables to protected">
+      <created>1654168442529</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1654168442529</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Create orderInput and orderOutput in Test">
+      <created>1654168490482</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1654168490482</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,8 +341,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add global variables to Order.java" />
-    <MESSAGE value="Create Main.java" />
     <MESSAGE value="Create getters Order.java" />
     <MESSAGE value="Add JAXB code to Main.java" />
     <MESSAGE value="Add XMLElement to global variables Order.java" />
@@ -352,6 +364,8 @@
     <MESSAGE value="Add Istack Common Utility Code Runtime dependency because SUDDENLY nothing works" />
     <MESSAGE value="Add Test class" />
     <MESSAGE value="Change convertToJSON to public" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change convertToJSON to public" />
+    <MESSAGE value="Change global variables to protected" />
+    <MESSAGE value="Create orderInput and orderOutput in Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create orderInput and orderOutput in Test" />
   </component>
 </project>
